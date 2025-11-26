@@ -34,6 +34,10 @@ namespace DANGNHAP
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dataGridView1.DataSource = dt; // dùng cùng DataGridView
+                // ẩn cột 
+                dataGridView1.Columns["makhachhang"].Visible = false;
+                dataGridView1.Columns["manhanvien"].Visible = false;
+
             }
         }
         

@@ -173,6 +173,11 @@ namespace DANGNHAP
                 txtHieuSuat.Text = dataGridView2.Rows[index].Cells["hieusuat"].Value.ToString();
             }
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 
     
