@@ -165,7 +165,9 @@ namespace DANGNHAP
 
         private void btnThoat_Click_1(object sender, EventArgs e)
         {
-            Application.ExitThread();
+            // Application.ExitThread();
+            this.Close();
+           
         }
     }
 
